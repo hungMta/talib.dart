@@ -4,8 +4,7 @@ import 'package:talib/talib.dart';
 import 'package:test/test.dart';
 
 void main() {
-  final Close = List<double>()
-    ..addAll([
+  final Close = <double>[]..addAll([
       201.28,
       197.64,
       195.78,
